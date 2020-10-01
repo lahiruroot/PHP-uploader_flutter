@@ -58,7 +58,7 @@ class _MyHomePageState extends State<MyHomePage> {
        "age": 22, 
        "file": await MultipartFile.fromFile(filepath.path, filename: fileName),
      });
-    Response response = await Dio ().post("http://devstudio.atwebpages.com/uploads.php",data:formData );
+    Response response = await Dio ().post("http://serverurl",data:formData );
    print("file upload response:$response"); 
    _showSnackBarMsg(response.data['message']);
    } catch (e) {
