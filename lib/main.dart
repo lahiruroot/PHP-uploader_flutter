@@ -16,10 +16,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Test Uploader',
+      title: 'Test01 Uploader',
       theme: ThemeData(
         
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
         
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
