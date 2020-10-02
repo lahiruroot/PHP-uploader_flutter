@@ -16,12 +16,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Test01 Uploader',
+      title: 'Test02_Uploader',
       theme: ThemeData(
         
         primarySwatch: Colors.red,
         
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+        visualDensity: VisualDensity.adaptivePlatformDensity
       ),
       home: MyHomePage(title: 'Quick Upload'),
     );
